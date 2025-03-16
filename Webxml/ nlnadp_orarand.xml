@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nlnadp_orarend>
+	<ora id="01" tipus="jelenléti">
+	<kurzus>
+	Számításelmélet
+	</kurzus>
+	<idopont>
+	<nap>
+	Hétfő
+	</nap>
+	<tol>
+	8
+	</tol>
+	<ig>
+	12
+	</ig>
+	</idopont>
+	<helyszin>
+	Furmint hotel
+	</helyszin>
+	<oktato>
+	Bednarik László 
+	</oktato>
+	<szak>
+	Programtervező Informatika
+	</szak>
+	</ora>
+	
+	
+	<ora id="02" tipus="jelenléti">
+	<kurzus>
+	Alkalmazásfejlesztés
+	</kurzus>
+	<idopont>
+	<nap>
+	Kedd
+	</nap>
+	<tol>
+	8
+	</tol>
+	<ig>
+	12
+	</ig>
+	</idopont>
+	<helyszin>
+	Furmint hotel
+	</helyszin>
+	<oktato>
+	Perlaki Attila
+	</oktato>
+	<szak>
+	Programtervező Informatika
+	</szak>
+	</ora>
+	
+	<ora id="03" tipus="jelenléti">
+	<kurzus>
+	Báb
+	</kurzus>
+	<idopont>
+	<nap>
+	Szerda
+	</nap>
+	<tol>
+	8
+	</tol>
+	<ig>
+	12
+	</ig>
+	</idopont>
+	<helyszin>
+	Furmint hotel
+	</helyszin>
+	<oktato>
+	Szentirmai László
+	</oktato>
+	<szak>
+	Programtervező Informatika
+	</szak>
+	</ora>
+	<ora id="04" tipus="jelenléti">
+	<kurzus>
+	Gamifikáció
+	</kurzus>
+	<idopont>
+	<nap>
+	Csütörtök
+	</nap>
+	<tol>
+	8
+	</tol>
+	<ig>
+	12
+	</ig>
+	</idopont>
+	<helyszin>
+	Furmint hotel
+	</helyszin>
+	<oktato>
+	Perlaki Attila
+	</oktato>
+	<szak>
+	Programtervező Informatika
+	</szak>
+	</ora>
+</nlnadp_orarend>
