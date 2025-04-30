@@ -13,11 +13,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Nodelist;
-public class DomreadHMS1DU {
+public class DomreadNLNADP {
 
 	public static void main(String [] args) throws SAXException, ParserConfigurationException{
 		
-		File xmlFile = new File("HMS1DU.xml");
+		File xmlFile = new File("NLNADP.xml");
 		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder = factory.newDocumentBuilder();
