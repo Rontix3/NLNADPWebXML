@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Órarend</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0073aa;
+    }
+
+    .orarend-blokk {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .orarend-blokk p {
+      margin: 5px 0;
+    }
+
+    .orarend-blokk p strong {
+      display: inline-block;
+      width: 100px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>BL_Órarend</h1>
+  <div id="orarend"></div>
+
+  <script>
+    const orarend = [
+      {
+        "@id": "01",
+        "@tipus": "jelenléti",
+        "kurzus": "Számításelmélet",
+        "idopont": { "nap": "Hétfő", "tol": "8", "ig": "12" },
+        "helyszin": "Furmint hotel",
+        "oktato": "Bednarik László",
+        "szak": "Programtervező Informatika"
+      },
+      {
+        "@id": "02",
+        "@tipus": "jelenléti",
+        "kurzus": "Alkalmazásfejlesztés",
+        "idopont": { "nap": "Kedd", "tol": "8", "ig": "12" },
+        "helyszin": "Furmint hotel",
+        "oktato": "Perlaki Attila",
+        "szak": "Programtervező Informatika"
+      },
+      {
+        "@id": "03",
+        "@tipus": "jelenléti",
+        "kurzus": "Báb",
+        "idopont": { "nap": "Szerda", "tol": "8", "ig": "12" },
+        "helyszin": "Furmint hotel",
+        "oktato": "Szentirmai László",
+        "szak": "Programtervező Informatika"
+      },
+      {
+        "@id": "04",
+        "@tipus": "jelenléti",
+        "kurzus": "Gamifikáció",
+        "idopont": { "nap": "Csütörtök", "tol": "8", "ig": "12" },
+        "helyszin": "Furmint hotel",
+        "oktato": "Perlaki Attila",
+        "szak": "Programtervező Informatika"
+      }
+    ];
+
+    const container = document.getElementById('orarend');
+
+    orarend.forEach(tetel => {
+      const blokk = document.createElement('div');
+      blokk.classList.add('orarend-blokk');
+      blokk.innerHTML = `
+        <p><strong>Tárgy:</strong> ${tetel.kurzus}</p>
+        <p><strong>Helyszín:</strong> ${tetel.helyszin}</p>
+        <p><strong>Oktato:</strong> ${tetel.oktato}</p>
+        <p><strong>Szak:</strong> ${tetel.szak}</p>
+      `;
+      container.appendChild(blokk);
+    });
+  </script>
+</body>
+</html>
